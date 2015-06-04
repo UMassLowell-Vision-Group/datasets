@@ -1,5 +1,24 @@
-Dataset One
+
+Generating Large Scale Image Datasets from 3D CAD Models
 ========
+Published at CVPR'15 Workshop on The Future of Datasets in Vision (https://sites.google.com/site/cvpr2015futureofdataworkshop/)
+
+Paper: http://vision.cs.uml.edu/pubs/cvpr2015_workshop_virtual_dataset.pdf
+
+Citation
+--------------
+
+```
+@inproceedings{baochen15fdv,
+    Author = {Baochen Sun and Xingchao Peng and Kate Saenko},
+    Title = {Generating Large Scale Image Datasets from 3D CAD Models},
+    Booktitle = {CVPR Workshop},
+    Year = {2015}
+}
+```
+
+Dataset One
+--------------
 Dataset URL: http://www.cs.uml.edu/~bsun/bmvc14.zip
 
 Dataset for "From Virtual to Reality: Fast Adaptation of Virtual Object Detectors to Real Domains" published in British Machine Vision Conference(BMVC) 2014.
@@ -23,7 +42,7 @@ Citation
 ```
 
 Dataset Two
-========
+--------------
 Dataset URL: http://www.cs.uml.edu/~xpeng/ICLR2015.zip
 
 Dataset for "What Do Deep CNNs Learn About Object?" published in ICLR'15 workshop.
