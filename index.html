@@ -5,7 +5,7 @@
     <title>Generating Large Scale Image Datasets from 3D CAD Models by UMassLowell-Vision-Group</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
@@ -94,6 +94,24 @@
 }
 </code></pre>
 
+<h2>
+<a id="faq" class="anchor" href="#faq" aria-hidden="true"><span class="octicon octicon-link"></span></a>FAQ</h2>
+
+<p>Please go to the GitHub repo (<a href="https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality">https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality</a>) for source code, 3d Models, datasets of Dataset One. The source code of Dataset Two is similar to Dataset One and more explainations are in the following. All the files corresponding to Dataset Two should be available soon. The following explanations are based on Dataset One.</p>
+
+<p>The source code is available in 'code' folder. The render.ms is the file for the rendering part. All the rendered images (with annotation) are in these two folders: 'virtual' and 'virtual_gray'. The 3D models is in the '3d_models' folder. Basically, here are the brief steps:</p>
+
+<ol>
+<li><p>Download the 3D models</p></li>
+<li><p>Run render.ms in 3ds Max (the software we used to generate the dataset)</p></li>
+</ol>
+
+<p>The are also limited comments in render.ms which might help you understand the code.</p>
+
+<p>To generate more realistic images (as in the 'What Do Deep CNNs Learn About Object' paper), you may need to specify different background and texture for different category/3d model. Then you need to change the 'images_bg' and 'images_texture' in the render.ms file to point to different background and textures for different category/3d model.</p>
+
+<p>For now, we did not implemented the full photorealistic rendering since it is more complicated (e.g. might need to use ray-tracking algorithms to do that) and take far more time (e.g. hours) to render one image. However, as showed in the 'From-Virtual-to-Reality' paper, simple domain adaptation techniques can get same performance as training classifiers with real images (e.g. images from ImageNet).</p>
+
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/UMassLowell-Vision-Group/datasets">Generating Large Scale Image Datasets from 3D CAD Models</a> is maintained by <a href="https://github.com/UMassLowell-Vision-Group">UMassLowell-Vision-Group</a>.</span>
 
@@ -105,4 +123,3 @@
   
   </body>
 </html>
-
