@@ -73,3 +73,18 @@ Citation
   bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 ```
+FAQ
+--------------
+Please go to the GitHub repo (https://github.com/UMassLowell-Vision-Group) for source code, 3d Models, datasets of Dataset One The source code of Dataset Two is similar to Dataset One and more explainations are in the following. All the files corresponding to Dataset Two should be available soon. The following explanations are based on Dataset One.
+
+The source code is available in 'code' folder. The render.ms is the file for the rendering part. All the rendered images (with annotation) are in these two folders: 'virtual' and 'virtual_gray'. The 3D models is in the '3d_models' folder. Basically, here are the brief steps:
+
+1. Download the 3D models
+
+2. Run render.ms in 3ds Max (the software we used to generate the dataset)
+
+The are also limited comments in render.ms which might help you understand the code.
+
+To generate more realistic images (as in the 'What Do Deep CNNs Learn About Object' paper), you may need to specify different background and texture for different category/3d model. Then you need to change the 'images_bg' and 'images_texture' in the render.ms file to point to different background and textures for different category/3d model.
+
+For now, we did not implemented the full photorealistic rendering since it is more complicated (e.g. might need to use ray-tracking algorithms to do that) and take far more time (e.g. hours) to render one image. However, as showed in the 'From-Virtual-to-Reality' paper, simple domain adaptation techniques can get same performance as training classifiers with real images (e.g. images from ImageNet).
