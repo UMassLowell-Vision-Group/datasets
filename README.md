@@ -75,7 +75,7 @@ Citation
 ```
 FAQ
 --------------
-Please go to the GitHub repo (https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality) for source code, 3d Models, datasets of Dataset One. The source code of Dataset Two is similar to Dataset One and more explainations are in the following. All the files corresponding to Dataset Two should be available soon. The following explanations are based on Dataset One.
+Please go to the GitHub repo (https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality) for source code, 3d Models, datasets of Dataset One. The source code of Dataset Two is similar to Dataset One and more explainations are in the following. The following explanations are based on Dataset One.
 
 The source code is available in 'code' folder. The render.ms is the file for the rendering part. All the rendered images (with annotation) are in these two folders: 'virtual' and 'virtual_gray'. The 3D models is in the '3d_models' folder. Basically, here are the brief steps:
 
