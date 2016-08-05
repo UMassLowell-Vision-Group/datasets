@@ -57,20 +57,12 @@ Citation
 --------------
 
 ```
-@inproceedings{xpengiclr15,
-  author    = {Xingchao Peng and
-               Baochen Sun and
-               Karim Ali and
-               Kate Saenko},
-  title     = {Exploring Invariances in Deep Convolutional Neural Networks Using
-               Synthetic Images},
-  journal   = {CoRR},
-  volume    = {abs/1412.7122},
-  year      = {2014},
-  url       = {http://arxiv.org/abs/1412.7122},
-  timestamp = {Thu, 01 Jan 2015 19:51:08 +0100},
-  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/PengSAS14},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
+@inproceedings{peng2015learning,
+  title={Learning deep object detectors from 3d models},
+  author={Peng, Xingchao and Sun, Baochen and Ali, Karim and Saenko, Kate},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={1278--1286},
+  year={2015}
 }
 ```
 FAQ
