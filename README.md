@@ -71,7 +71,7 @@ Please go to the GitHub repo (https://github.com/UMassLowell-Vision-Group/From-V
 
 The source code is available in 'code' folder. The render.ms is the file for the rendering part. All the rendered images (with annotation) are in these two folders: 'virtual' and 'virtual_gray'. The 3D models is in the '3d_models' folder. Basically, here are the brief steps:
 
-1. Download the 3D models: https://drive.google.com/file/d/0B9ca-zqjEJYxZE5hVTk3UU9hcG8/view?usp=sharing
+1. Download the 3D models: https://drive.google.com/file/d/0B9ca-zqjEJYxZE5hVTk3UU9hcG8/view?usp=sharing  (In case that a password is needed to unzip the file, input 'iccv2015')
 
 
 2. Run render.ms in 3ds Max (the software we used to generate the dataset)
